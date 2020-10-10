@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DependencyInjection
 {
-   public interface IServiceCollection
+    public interface IScope: IDisposable
     {
     }
 }
